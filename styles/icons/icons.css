@@ -1,0 +1,17 @@
+.icon {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin:30px auto;
+  display: block;
+}
+
+.icon_twitter, .icon_facebook, .icon_linkedin {
+  stroke: #C6CBCD;
+  fill: none;
+  transition: stroke .3s;
+}
+
+.icon_twitter:hover, .icon_facebook:hover, .icon_linkedin:hover {
+  stroke: #6A67CE;
+}
